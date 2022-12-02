@@ -1,11 +1,11 @@
 clear; clc;
 
 % Get all the *.txt files in the path P
-P = 'C:\Users\laura\Documents\GitHub\Experimental-data\data_txt';
+P = 'C:\Users\laura\Documents\GitHub\dynamic-stall-data\data_txt';
 S = dir(fullfile(P,'*.txt'));
 
 % Path to save *.mat files
-out_P = 'C:\Users\laura\Documents\GitHub\Experimental-data\data_mat';
+out_P = 'C:\Users\laura\Documents\GitHub\dynamic-stall-data\data_mat';
 
 % Go over all the files in S
 for k = 1:numel(S)
